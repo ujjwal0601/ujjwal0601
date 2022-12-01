@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <h1>FORM</h1>
+        <form>
+            <label for="username">Username :</label>
+            <input type="text" id="username" required><br><br>
+            <label for="password">Password :</label>
+            <input type="password" id="password" required><br><br>
+            <label for="email">E-mail :</label>
+            <input type="email" id="email" required><br><br>
+            <p>Select Gender :</p>
+
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="Male"><br>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="Female"><br>
+            <label for="trans">Trans</label>
+            <input type="radio" name="gender" id="trans" value="Transgender"><br><br>
+            
+
+
+            <p>Select age group</p>
+            <label for="age_group">Select age</label>
+            <select id="age_group">
+                <option value="5-10">5-10</option>
+                <option value="11-20">11-20</option>
+                <option value="21-30">21-30</option>
+                <option value="31-40">31-40</option>
+                <option value="41-50">41-50</option>
+                <option value="50+">50+</option>
+        
+            </select><br>
+            <input type="submit" value="Sign in">
+        </form>
+    </body>
+</html>
